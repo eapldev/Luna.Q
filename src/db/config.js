@@ -1,8 +1,8 @@
 const sqlite3 = require("sqlite3")
-const { opne } = require("sqlite")
+const { open } = require("sqlite")
 
 module.exports = () => 
     open({
-        filename: '/src/db/lunaq.sqlite',
-        driver: sqlite3.Database
-    })
+        filename: './src/db/lunaq.sqlite',
+        driver: sqlite3.Database,
+    });

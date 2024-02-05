@@ -1,10 +1,11 @@
 {
-  "name": "Luna.Q",
+  "name": "LunaQ",
   "version": "1.0.0",
   "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página.",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon src/server.js"
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
   },
   "keywords": [],
   "author": "Eduardo Aparecido",
