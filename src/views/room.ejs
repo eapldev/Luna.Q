@@ -28,11 +28,12 @@
                     <img src="/images/logo.svg" alt="Logo Rocket.Q"/>
                 </a>
                 <div class="buttons">
+                    
                     <div class="button outlined" id="room-id" data-id="<%= roomId %>">
                         #<%= roomId %>
                         <img src="/images/copy-blue.svg" alt="Copiar numero da sala"/>
                     </div>
-                    <a href="#" class="button">
+                    <a href="/create-pass" class="button">
                         <img src="/images/users-white.svg" alt="Criar uma sala">
                         Criar Sala
                     </a>
@@ -59,6 +60,11 @@
                 <section id="questions">
                     <h2 class="sr-only">Perguntas da comunidade</h2>
                     <div class="questions">
+
+                        <% if (isNoQuestions){ %>
+                            <%- include('parts/no-question') %>
+
+                       <% } %>
 
                         <% questions.forEach(question => { %>
                             <div class="question-wrapper">
@@ -96,8 +102,8 @@
                                 </div>
                                 <div class="actions">
                                     <a href="#" class="delete" data-id="<%= questionRead.id %>">
-                                        <img src="/images/trash.svg" alt="Excluir">
-                                        Excluir
+                                        <img src="/images/check.svg" alt="Pergunta lida">
+                                        Pergunta lida
                                     </a>
                                 </div>
                             </div>
