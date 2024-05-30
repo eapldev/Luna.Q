@@ -6,7 +6,7 @@ https://github.com/eapldev/Luna.Q/assets/157761844/dbbc675e-85ee-448f-86c7-ab2dc
 ## Olá! 👋
 
 <div align="center">
-  <h3><a href="https://michelesilva20.github.io/form-card/" target="_blank">Figma Completo!</a></h3>
+  <h3><a href="https://www.figma.com/design/Ik6ElG0YS1Oa51YAEeG0M9/luna.q-(Community)---by-rocket.seat?node-id=0-1&t=LDKVdIzNuy3rRZFY-0" target="_blank">Figma Completo!</a></h3>
 </div>
 
 <div>
